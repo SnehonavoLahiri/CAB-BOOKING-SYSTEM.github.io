@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background: url("taxi.jpg");
+    background-size: cover;
+
+    /* background-size: auto; */
+}
+
+.terms-box{
+    max-width: 1160px;
+    background-color: rgb(81, 79, 79);
+    font-size: 50px;
+    font-family: "Montserrat";
+    margin: 182px 30px 29px 63px;
+    padding: 60px 30px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    box-sizing: border-box;
+    background-color:transparent;
+    height: 800px;
+}
+#Morebutton{
+    float: right;
+    height: 77px;
+    width: 148px;
+    font: size 20px ;
+    background-color: black;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 10px;
+}
+
+.terms-text{
+    padding: 0 20px;
+    height: 1100px;
+    overflow-y: hidden;
+    font-size: 24px;
+    font-weight: 500;
+    color: #f1f1f1;
+    /* color:green; */
+
+}
+#More{
+    display: none;
+}
+
+
+.buttons{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 50px;
+    width: calc(50% - 6px);
+    border: 0;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s linear;
+    cursor: pointer;
+}
+/* .container{
+    position:absolute;
+    top: 170%;
+    left: 20%;
+} */
+

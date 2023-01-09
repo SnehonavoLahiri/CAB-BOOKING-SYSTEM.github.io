@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("C8.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+
+    /* background-size: auto; */
+}
+.mx-4:hover,.mx-4 a.active{
+    background-color: grey;
+    border-radius: 15px;
+    text-decoration: underline;
+}
+
+.terms-box{
+    max-width: 1160px;
+    background-color: rgb(81, 79, 79);
+    font-size: 50px;
+    font-family: "Montserrat";
+    margin: 112px 30px 29px 63px;
+    padding: 60px 30px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    box-sizing: border-box;
+    background-color:transparent;
+    height: 900px;
+}
+#Morebutton{
+    float: right;
+    height: 77px;
+    width: 148px;
+    font: size 20px ;
+    background-color: black;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 10px;
+}
+
+.terms-text{
+    padding: 0 20px;
+    height: 1100px;
+    overflow-y: hidden;
+    font-size: 24px;
+    font-weight: 500;
+    color:black;
+    /* color:green; */
+
+}
+#More{
+    display: none;
+}
+
+
+.buttons{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 50px;
+    width: calc(50% - 6px);
+    border: 0;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s linear;
+    cursor: pointer;
+}
+

@@ -1,0 +1,16 @@
+.p{
+    font-size: 22px;
+    display:;
+    color: rgb(10, 10, 10);
+}
+body{
+    background: linear-gradient((rgba(0, 0, 0, 0.7)));
+    background-image : url('Pictures/C8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: absolute; */
+    height: 1020vh;
+    width: 1500vw;
+    margin: 20px;;
+}

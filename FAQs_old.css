@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient((rgba(0, 0, 0, 0.7)));
+    background-image : url('Pictures/C14.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 98vh;
+    width: 90vw;
+    margin: 20px;;
+}
+.p{
+    font-size: 20px;
+    display: inline-table;
+    color: rgb(168, 168, 14);
+}

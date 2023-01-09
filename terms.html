@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Terms&Conditions</title>
+    <link rel="stylesheet" href="terms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <style>
+        header{
+            background-color: white;
+        }
+        .mx-4:hover,.mx-4 a.active{
+    background-color: grey;
+    border-radius: 15px;
+    text-decoration: underline;
+    /* background-color: black; */
+    
+   
+ 
+    
+  }
+    </style>
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-2 mb-4 border-bottom">
+            <a href="/" class="d-lg-inline-flex align-items-center text-danger text-decoration-none"
+              style="padding-left:30px; padding-right:500px;">
+              <img src="Pictures/Ride Now (1).jpg" width="50px" height="50px" >
+              <h1 style="text-align: center; padding-left: 20px; font-style: oblique; color: rgb(59, 44, 132);">Ride Now</h1>
+            </a>
+            <nav class="d-inline-flex  mt-2 mt-md-0 ms-md-5">
+              <a class="mx-4 py-2 text-dark text-decoration-none" href="carbook.html"><i class="fas fa-home"></i></a>
+              <a class="mx-4 py-2 text-dark text-decoration-none" class="active"href="terms.html" style="background-color: grey;border-radius:10px;text-decoration: underline;">Terms & Conditions</a>
+              <a class="mx-4 py-2 text-dark text-decoration-none" href="Aboutus.html"> About Us</a>
+              <a class="mx-4 py-2 text-dark text-decoration-none" href="features.html">Features</a>
+        <!-- <a class="mx-4 py-2 text-dark text-decoration-none" href="#"> Contact Us</a> -->
+    </header>
+    <div class="terms-box">
+        <div class="terms-text">
+            <div class="text">
+            <h2>Terms & Conditions</h2>
+            <p> “Account” shall mean the account created by the Customer on the Application for availing the Services
+                provided by ride now.</p>
+            <p> “Additional Fee” shall mean any toll duty, inter-state taxes, etc. as may not be included in the Fare or
+                not already paid as a part of the Total Ride Fee but payable to any third party / government authorities
+                for undertaking the Ride under Applicable Law.</p>
+            <p> Applicable Laws” shall mean and include all applicable statutes, enactments, acts of legislature or
+                parliament, laws, ordinances, rules, by-laws, regulations, notifications, guidelines, policies,
+                directions, directives and orders of any governmental authority, tribunal, or a court of India...</p>
+        </div>
+            <span id="More">
+                <div class="text">
+                <p> “Convenience Fee”/” Access Fee” shall mean the fee payable by the Customer to Ride Now for the
+                    Service i.e., for availing the technology services offered by Ride Now, door to door service, Customer support. Convenience Fee shall be chargeable on every
+                    booking made through the Site.</p>
+                <p> “City of Operation” shall mean a city in which the Customers and Drivers avail and render the
+                    transportation services respectively. For clarity, the services rendered by the Drivers and availed
+                    by the Customers shall be in the same city.</p>
+                <p> “Customer/ You” means a person who has an Account on the Application.</p>
+                <p> “Driver” shall mean and include such individuals as may be evaluated, appointed and trained by an
+                    operator associated with us to provide the transportation services on its behalf and persons who are
+                    registered with Ride Now and own such Vehicles with necessary city taxi permits and other applicable
+                    transport vehicle permits and licenses to provide transportation services within the City of
+                    Operation.</p>
+                <p> “Fare” shall mean such amount in Indian Rupees, which is reflected on the Application, as the fare
+                    payable for the specific Ride performed by a Driver.</p>
+                </div>
+                </span>
+                <button onclick="myFunction()" id="Morebutton">Read More</button>
+        </div>
+
+    </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var text = document.getElementsByClassName("text");
+        //   var text1 = document.getElementsByClassName("text1");
+          var moreText = document.getElementById("More");
+          var btnText = document.getElementById("Morebutton");
+        
+          if (moreText.style.display == "none") {
+             moreText.style.display = "inline";
+            btnText.innerHTML = "Read Less"; 
+            moreText.style.display = "inline";
+          } else {
+            moreText.style.display = "none";
+             btnText.innerHTML = "Read More";
+             text.style.display = "inline";
+          }
+        }
+        </script>
+
+
+
+
+</body>
+
+</html>
