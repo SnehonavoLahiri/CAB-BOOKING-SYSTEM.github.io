@@ -79,7 +79,7 @@
           <h1 style="text-align: center; padding-left: 20px; font-style: oblique; color: rgb(59, 44, 132);">Ride Now</h1>
         </a>
         <nav class="d-inline-flex  mt-2 mt-md-0 ms-md-5">
-          <a class="mx-4 py-2 text-dark text-decoration-none" href="carbook.html"><i class="fas fa-home"></i></a>
+          <a class="mx-4 py-2 text-dark text-decoration-none" href="index.html"><i class="fas fa-home"></i></a>
           <a class="mx-4 py-2 text-dark text-decoration-none" href="terms.html">Terms & Conditions</a>
           <a class="mx-4 py-2 text-dark text-decoration-none" href="Aboutus.html"> About Us</a>
           <div class="dropdown">
